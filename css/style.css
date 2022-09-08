@@ -66,43 +66,34 @@ main .subtitle h2 {
 /* section cards */
 
 
-
+.col {
+  width: calc(100% / 3 );
+  float: left;
+  background-color: #0F0D18;
+  
+}
 
 .items .row .col img {
   height: 80px;
   float: left;
+  margin-right: 10px;
 }
 
-.items .row .col .card {
-  display: inline-block;
-  height: 81px;
-  width: 30%;
-  background-color: #0F0E17;
-  box-shadow: 1px 1px 2px rgb(0, 0, 0, 0.2);
-}
-
-.items .row .col .card .description {
-  width: 160px;
-  height: 57px;
-  padding: 10px;
-  float: left;
-}
-
-.items .row .col .card .description .name {
+.items .row .col .card .name {
   text-transform: uppercase;
   font-weight: 800;
-  padding-bottom: 2px;
-  color: white;
+  padding: 5px 0;
+  color: #FFFEFF;
 }
 
-.items .row .col .card .description .qualify {
+.items .row .col .card .qualify {
   font-weight: 400;
   font-size: 0.8rem;
   padding-bottom: 2px;
-  color: white;
+  color: #FFFEFF;
 }
 
-.items .row .col .card .description .email {
+.items .row .col .card .email {
   color: #117BAD;
   font-size: 0.9rem;
 }
