@@ -13,7 +13,22 @@ body {
 
 /* components */
 
-
+.container {
+  max-width: 1200px;
+  width: 80%;
+  margin: 0 auto;
+}
 
 
 /* utility */
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.debug {
+  background-color: hsla(160, 100%, 75%, 0.794);
+  border: 1px solid black;
+}
