@@ -49,6 +49,8 @@ header .title {
 
 /* main */
 
+/* section subtitle */
+
 main .subtitle {
   padding-bottom: 40px;
 }
@@ -60,3 +62,47 @@ main .subtitle h2 {
   text-align: center;
 }
 
+
+/* section cards */
+
+
+
+
+.items .row .col img {
+  height: 80px;
+  float: left;
+}
+
+.items .row .col .card {
+  display: inline-block;
+  height: 81px;
+  width: 30%;
+  background-color: #0F0E17;
+  box-shadow: 1px 1px 2px rgb(0, 0, 0, 0.2);
+}
+
+.items .row .col .card .description {
+  width: 160px;
+  height: 57px;
+  padding: 10px;
+  float: left;
+}
+
+.items .row .col .card .description .name {
+  text-transform: uppercase;
+  font-weight: 800;
+  padding-bottom: 2px;
+  color: white;
+}
+
+.items .row .col .card .description .qualify {
+  font-weight: 400;
+  font-size: 0.8rem;
+  padding-bottom: 2px;
+  color: white;
+}
+
+.items .row .col .card .description .email {
+  color: #117BAD;
+  font-size: 0.9rem;
+}
