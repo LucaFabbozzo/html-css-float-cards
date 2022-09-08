@@ -46,3 +46,17 @@ header .title {
   text-align: center;
   color: #E53070;
 }
+
+/* main */
+
+main .subtitle {
+  padding-bottom: 40px;
+}
+
+main .subtitle h2 {
+  font-size: 0.9rem;
+  font-weight: lighter;
+  color: #382D40;
+  text-align: center;
+}
+
